@@ -1,6 +1,6 @@
 package college.Matrix;
-
 import java.util.Scanner;
+
 public class MatrixTrans {
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
@@ -10,6 +10,12 @@ public class MatrixTrans {
         int col = sc.nextInt();
         int a[][] = new int[row][col];
         int b[][] = new int[row][col];
+        if(row != col){
+            System.out.println("it's not square matrix");
+            return;
+        }else{
+            System.out.println("it's square matrix");
+        }
         System.out.println("Enter the elements of the matrix");
         for (int i = 0; i < row; i++) {
             for (int j = 0; j < col; j++) {
