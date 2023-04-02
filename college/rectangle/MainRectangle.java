@@ -21,7 +21,7 @@ class MainRectangle{
             if(areas[i] > max)
             {
                 max = areas[i];
-            }2
+            }
             
         }
         System.out.println("The greatest area is " + max );
