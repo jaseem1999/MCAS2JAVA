@@ -19,7 +19,7 @@ class MethodOverloading {
         System.out.println("Enter the base and height of triangle");
         double base = sc.nextDouble();
         double height = sc.nextDouble();
-        a.area(base, height);
+        System.out.println("Area of triangle is " + a.area(base, height));
         
     }
     
@@ -27,8 +27,7 @@ class MethodOverloading {
 
 class Area {
     public int area(int a) {
-        int an = a * a;
-        return an;
+        return a * a;
     }
     
     public int area(int a, int b) {
@@ -38,8 +37,7 @@ class Area {
     public float area(float r) {
         return 3.14f * r * r; 
     }
-    public void area(double b, double h) {
-        double an =0.5*(b * h);
-        System.out.println("Area of triangle is " + an);
+    public double area(double b, double h) {
+        return 0.5*(b * h);
     }
 }
