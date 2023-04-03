@@ -5,28 +5,25 @@ import java.util.Scanner;
 class AreaShape{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the radius of circle");
+        System.out.println("Enter the radius of circle: ");
         float r = sc.nextFloat();
         CoOver co = new CoOver(r);
-        System.out.println("Enter the base of triangle");
+        System.out.println("Enter the base and height of triangle: ");
         float b = sc.nextFloat();
-        System.out.println("Enter the height of triangle");
         float h = sc.nextFloat();
         CoOver co1 = new CoOver(b, h);
-        System.out.println("Enter the length of cube");
+        System.out.println("Enter the side of cube: ");
         double a = sc.nextDouble();
-        co.CoOver(a);
-        System.out.println("Enter the length of cuboid");
+        CoOver co2 = new CoOver(a);
+        System.out.println("Enter the length, breadth and height of cuboid: ");
         float l = sc.nextFloat();
-        System.out.println("Enter the breadth of cuboid");
         float b1 = sc.nextFloat();
-        System.out.println("Enter the height of cuboid");
         float h1 = sc.nextFloat();
-        co.CoOver(l, b1, h1);
-        System.out.println("Area of circle is " + co.areaCircle());
-        System.out.println("Area of triangle is " + co1.areaTriangle());
-        System.out.println("Area of cube is " + co.areaCub());
-        System.out.println("Area of cuboid is " + co.areaCuboid());
+        CoOver co3 = new CoOver(l, b1, h1);
+        System.out.println("Area of circle: " + co.areaCircle());
+        System.out.println("Area of triangle: " + co1.areaTriangle());
+        System.out.println("Area of cube: " + co2.areaCub());
+        System.out.println("Area of cuboid: " + co3.areaCuboid());
     }
 
 }
@@ -39,7 +36,7 @@ class CoOver {
     public CoOver(float r) {
         this.r = r;
     }
-    public void CoOver(float l2, float b12, float h12) {
+    public CoOver(float l2, float b12, float h12) {
         this.l = l2;
         this.b1 = b12;
         this.h1 = h12;
@@ -48,7 +45,7 @@ class CoOver {
         this.b = b;
         this.h = h;
     }
-    public void CoOver(double a) {
+    public CoOver(double a) {
         this.a = a; 
     }
    
