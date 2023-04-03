@@ -14,7 +14,7 @@ class AreaShape{
         float h = sc.nextFloat();
         CoOver co1 = new CoOver(b, h);
         System.out.println("Enter the length of cube");
-        float a = sc.nextFloat();
+        double a = sc.nextDouble();
         co.CoOver(a);
         System.out.println("Enter the length of cuboid");
         float l = sc.nextFloat();
@@ -34,19 +34,23 @@ class CoOver {
     float PI = 3.14f;
     float r;
     float b, h;
-    float a;
+    double a;
     float l, b1, h1;
     public CoOver(float r) {
         this.r = r;
+    }
+    public void CoOver(double a2) {
+    }
+    public void CoOver(float l2, float b12, float h12) {
     }
     public CoOver(float b, float h) {
         this.b = b;
         this.h = h;
     }
-    public void CoOver(float a) {
+    public CoOver(double a) {
         this.a = a; 
     }
-    public void CoOver(float l, float b1 , float h1) {
+    public CoOver(float l, float b1 , float h1) {
         this.l = l;
         this.b1 = b1;
         this.h1 = h1;
@@ -57,7 +61,7 @@ class CoOver {
     public float areaTriangle() {
         return 0.5f*(b * h);
     }
-    public float areaCub() {
+    public double areaCub() {
         return 6*(a * a);
     }
     public float areaCuboid() {
