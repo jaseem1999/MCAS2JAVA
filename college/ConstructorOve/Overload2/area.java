@@ -39,22 +39,19 @@ class CoOver {
     public CoOver(float r) {
         this.r = r;
     }
-    public void CoOver(double a2) {
-    }
     public void CoOver(float l2, float b12, float h12) {
+        this.l = l2;
+        this.b1 = b12;
+        this.h1 = h12;
     }
     public CoOver(float b, float h) {
         this.b = b;
         this.h = h;
     }
-    public CoOver(double a) {
+    public void CoOver(double a) {
         this.a = a; 
     }
-    public CoOver(float l, float b1 , float h1) {
-        this.l = l;
-        this.b1 = b1;
-        this.h1 = h1;
-    }
+   
     public float areaCircle() {
         return PI*(r * r);
     }
