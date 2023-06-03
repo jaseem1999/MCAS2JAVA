@@ -1,4 +1,4 @@
-package college.Co;
+package CO1;
 //write a program to  Add complex numbers
 class compNum {
     int real;

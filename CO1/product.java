@@ -1,4 +1,4 @@
-package college;
+package CO1;
 import java.util.Scanner;
 
 class Product {

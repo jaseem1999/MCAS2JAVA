@@ -1,0 +1,244 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "AreaShape",
+            "request": "launch",
+            "mainClass": "CO3.AreaShape",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
+            "name": "MethodOverloading",
+            "request": "launch",
+            "mainClass": "CO3.MethodOverloading",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
+            "name": "SearchEmp",
+            "request": "launch",
+            "mainClass": "CO2.SearchEmp",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
+            "name": "Searching",
+            "request": "launch",
+            "mainClass": "CO2.Searching",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
+            "name": "StringMannupalution",
+            "request": "launch",
+            "mainClass": "CO2.StringMannupalution",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
+            "name": "SortString",
+            "request": "launch",
+            "mainClass": "CO2.SortString",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
+            "name": "circle",
+            "request": "launch",
+            "mainClass": "college.circle",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
+            "name": "addMatrixCo",
+            "request": "launch",
+            "mainClass": "CO1.addMatrixCo",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "name": "Java",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ]
+        },
+        {
+            "name": "Java Console App",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ],
+            "externalConsole": true
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "MainComplex",
+            "request": "launch",
+            "mainClass": "CO1.MainComplex",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
+            "name": "MatrixTrans",
+            "request": "launch",
+            "mainClass": "CO1.MatrixTrans",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
+            "name": "Product",
+            "request": "launch",
+            "mainClass": "CO1.Product",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
+            "name": "addMatrix",
+            "request": "launch",
+            "mainClass": "CO1.addMatrix",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
+            "name": "Main1",
+            "request": "launch",
+            "mainClass": "Main1",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
+            "name": "CelsiusFragment",
+            "request": "launch",
+            "mainClass": "college.CelsiusFragment",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
+            "name": "MainComplex(1)",
+            "request": "launch",
+            "mainClass": "college.Co.MainComplex",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
+            "name": "Area",
+            "request": "launch",
+            "mainClass": "college.ConstructorOve.Area",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "college.ConstructorOve.Main",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
+            "name": "AreaShape",
+            "request": "launch",
+            "mainClass": "college.ConstructorOve.Overload2.AreaShape",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
+            "name": "Fibonacci",
+            "request": "launch",
+            "mainClass": "college.Fibonacci",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
+            "name": "All",
+            "request": "launch",
+            "mainClass": "college.MCASTUDFENT.All",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
+            "name": "Mca",
+            "request": "launch",
+            "mainClass": "college.MCAmark.Mca",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
+            "name": "MatrixTrans(1)",
+            "request": "launch",
+            "mainClass": "college.Matrix.MatrixTrans",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
+            "name": "MatrixAdd",
+            "request": "launch",
+            "mainClass": "college.MatrixAdd",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
+            "name": "MatrixTranspose",
+            "request": "launch",
+            "mainClass": "college.MatrixTranspose",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
+            "name": "MethodOverloading",
+            "request": "launch",
+            "mainClass": "college.MethodOverloading",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
+            "name": "Product(1)",
+            "request": "launch",
+            "mainClass": "college.Product",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
+            "name": "SimplCalc",
+            "request": "launch",
+            "mainClass": "college.SimplCalc",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
+            "name": "addMatrix(1)",
+            "request": "launch",
+            "mainClass": "college.addMatrix",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
+            "name": "MainRectangle",
+            "request": "launch",
+            "mainClass": "college.rectangle.MainRectangle",
+            "projectName": "Java lab_3d2c13cc"
+        }
+    ]
+}

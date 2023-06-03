@@ -1,4 +1,4 @@
-package college.Matrix;
+package CO1;
 import java.util.Scanner;
 
 public class MatrixTrans {
