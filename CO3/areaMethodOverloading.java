@@ -1,4 +1,4 @@
-package college;
+package CO3;
 
 import java.util.Scanner;
 

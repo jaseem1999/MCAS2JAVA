@@ -9,7 +9,7 @@ class circle{
             System.out.println("2. Area of rectangle");
             System.out.println("3. Exit");
             System.out.println("Enter your choice");
-            int ch=3;
+            int ch=1;
             switch(ch)
             {
                 case 1:
