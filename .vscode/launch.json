@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "CO3.Main",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
+            "name": "AcademicSports",
+            "request": "launch",
+            "mainClass": "CO3.AcademicSports",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
             "name": "AreaShape",
             "request": "launch",
             "mainClass": "CO3.AreaShape",
