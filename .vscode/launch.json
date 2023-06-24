@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MainShape",
+            "request": "launch",
+            "mainClass": "CO4.Graphics.MainShape",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
+            "name": "ArthMain",
+            "request": "launch",
+            "mainClass": "CO4.ArthOpPackage.ArthMain",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
+            "name": "ArthMain",
+            "request": "launch",
+            "mainClass": "CO4.ArthMain",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
+            "name": "StaticClassMain",
+            "request": "launch",
+            "mainClass": "college.StaticClassMain",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
+            "name": "StaticMStudentinnerClass",
+            "request": "launch",
+            "mainClass": "college.StaticMStudentinnerClass",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
+            "name": "MStudentinner",
+            "request": "launch",
+            "mainClass": "college.MStudentinner",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
+            "name": "MCpu",
+            "request": "launch",
+            "mainClass": "CO1.MCpu",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
             "name": "MainI",
             "request": "launch",
             "mainClass": "CO3.MainI",
