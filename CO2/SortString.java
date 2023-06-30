@@ -1,10 +1,12 @@
 // Program to Sort strings
 package CO2;
 
+import java.util.Scanner;
 class SortString {
     public static void main(String[] args) {
-        String a = "ABCDEF";
-        // Program to Sort strings
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a string: ");
+        String a = sc.next();
         System.out.println("The string is: " + a);
         char[] b = a.toCharArray();
         char temp;

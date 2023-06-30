@@ -1,7 +1,6 @@
 package CO2;
 // Perform string manipulations
-class StringMannupalution {
-    // Perform string manipulations
+class StringManipulations {
     public static void main(String[] args) {
         String str = "Java Programming";
         System.out.println("The string is: " + str);

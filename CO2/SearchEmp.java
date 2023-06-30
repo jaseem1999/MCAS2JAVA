@@ -1,14 +1,23 @@
 package CO2;
 
+import java.util.Scanner;
 class SearchEmp {
     public static void main(String[] args) {
-        Employee[] emp = new Employee[5];
-        emp[0] = new Employee(1, "John", 1000);   
-        emp[1] = new Employee(2, "Doe", 2000);
-        emp[2] = new Employee(3, "Jane", 3000);
-        emp[3] = new Employee(4, "Doe", 4000);
-        emp[4] = new Employee(5, "John", 5000);
-        int search = 2;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the number of employees: ");
+        int size = sc.nextInt();
+        Employee[] emp = new Employee[size];
+        for (int i = 0; i < emp.length; i++) {
+            System.out.println("Enter the employee number: ");
+            int no = sc.nextInt();
+            System.out.println("Enter the employee name: ");
+            String name = sc.next();
+            System.out.println("Enter the employee salary: ");
+            double salary = sc.nextDouble();
+            emp[i] = new Employee(no, name, salary);
+        }
+        System.out.println("Enter the employee number to search: ");
+        int search = sc.nextInt();
         for (int i = 0; i < emp.length; i++) {
             if (emp[i].eNo == search) {
                 System.out.println("Employee found at index " + i);

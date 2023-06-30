@@ -1,5 +1,6 @@
 package CO1;
 //write a program to  Add complex numbers
+import java.util.Scanner;
 class compNum {
     int real;
     int img;
@@ -24,8 +25,15 @@ class compNum {
 }
 class MainComplex {
     public static void main(String[] args) {
-        compNum c1 = new compNum(2, 3);
-        compNum c2 = new compNum(4,-5);
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the real and img part of first complex number: ");
+        int r1 = sc.nextInt();
+        int i1 = sc.nextInt();
+        compNum c1 = new compNum(r1, i1);
+        System.out.println("Enter the real and img part of second complex number: ");
+        int r2 = sc.nextInt();
+        int i2 = sc.nextInt();
+        compNum c2 = new compNum(r2, i2);
         compNum temp = new compNum(0, 0);
         temp = temp.add(c1, c2);
         System.out.println("Sum of complex numbers: " + temp);

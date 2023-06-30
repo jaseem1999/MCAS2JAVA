@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AuthPass",
+            "request": "launch",
+            "mainClass": "CO4.AuthPass",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
+            "name": "Negative",
+            "request": "launch",
+            "mainClass": "CO4.Negative",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
+            "name": "MainBill",
+            "request": "launch",
+            "mainClass": "college.MainBill",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
+            "name": "UserException",
+            "request": "launch",
+            "mainClass": "college.UserException",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
+            "name": "StringManipulations",
+            "request": "launch",
+            "mainClass": "CO2.StringManipulations",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
             "name": "MainShape",
             "request": "launch",
             "mainClass": "CO4.Graphics.MainShape",

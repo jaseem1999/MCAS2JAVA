@@ -1,3 +1,4 @@
+package college;
 import java.util.Scanner;
 
 class MainBill{
@@ -34,8 +35,7 @@ class MainBill{
                  System.out.println("---------------------------------------------");
 
                 System.out.println("                                    Total price"+price);
-
-
+                sc.close();
         }
 }
 class Bill{
@@ -48,4 +48,5 @@ class Bill{
                 this.up= up;
                 this.total=total;
         }
+}
                      
