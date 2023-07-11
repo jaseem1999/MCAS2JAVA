@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "threadMulFive",
+            "request": "launch",
+            "mainClass": "CO4.threadMulFive",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
+            "name": "staticClassSmpl",
+            "request": "launch",
+            "mainClass": "college.staticClassSmpl",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
             "name": "AuthPass",
             "request": "launch",
             "mainClass": "CO4.AuthPass",
