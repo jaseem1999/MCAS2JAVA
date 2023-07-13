@@ -1,7 +1,5 @@
 package CO3;
-
 import java.util.Scanner;
-
 class MethodOverloading {
     public static void main(String[] args) {
         Area a = new Area();
@@ -35,7 +33,7 @@ class Area {
     }
     
     public float area(float r) {
-        return 3.14f * r * r; 
+        return 3.14f * (r * r); 
     }
     public double area(double b, double h) {
         return 0.5*(b * h);

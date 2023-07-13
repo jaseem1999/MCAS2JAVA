@@ -47,7 +47,7 @@ class MainI {
         int choice;
         double radius, length, breadth;
         boolean flag = true;
-       while(flag) {
+        while(flag) {
             System.out.println("1. Circle\n2. Rectangle\n3. Exit");
             System.out.print("Enter your choice: ");
             choice = sc.nextInt();

@@ -1,8 +1,8 @@
 package CO3;
 //Create classes Student and Sports. Create another class Result inherited from Student and Sports.Display the academic and sports score of a student.
 
-import java.util.Scanner;
 
+import java.util.Scanner;
 public class AcademicSports {
     public static void main(String[] args) {
         new Result();
