@@ -7,20 +7,26 @@ public class interThreaaCommunication {
             public void run() {
                 a.withdraw(15000);
             }
-        }.start();
+        }.start(); 
         new Thread() {
             public void run() {
                 a.deposit(10000);
             }
         }.start();
 
-        System.out.println("Final Balance :: "+a.getBalance());
+        new Thread() {
+            public void run() {
+                System.out.println("Final Balance: " + a.getBalance());
+            }
+        }.start();
     }
 }
 
 class Account{
     double balance = 5000;
+    double amount;
     synchronized void withdraw(double amount) {
+        this.amount = amount;
         System.out.println("Going to withdraw...");
         if (balance < amount) {
             System.out.println("Less balance; waiting for deposit...");
@@ -28,6 +34,8 @@ class Account{
                 System.out.println("Waiting...");
                 wait();
                 System.out.println("Wait completed...");
+                balance -= amount;
+                System.out.println("after Deposit and Withdraw completed... (Amount: " + amount + "))");
             } catch (Exception e) {
                 System.out.println(e);
             }
@@ -47,7 +55,8 @@ class Account{
 
     }
 
-    public double getBalance() {
+    synchronized double getBalance() {
+       //all thraads are executed then only it will return the balance
         return balance;
     }
 
