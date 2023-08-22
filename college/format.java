@@ -41,7 +41,7 @@ class MainBill{
 class Bill{
         String date,name;
         int pid,qt,up,total;
-        public Bill(String name,int pid,int qt,int up,int total ){
+        Bill(String name,int pid,int qt,int up,int total ){
                 this.name = name;
                 this.pid = pid;
                 this.qt = qt;

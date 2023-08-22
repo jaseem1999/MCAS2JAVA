@@ -6,6 +6,97 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Febonacci",
+            "request": "launch",
+            "mainClass": "CO4.Febonacci",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
+            "name": "interThreaaCommunication",
+            "request": "launch",
+            "mainClass": "Self.interThreaaCommunication",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
+            "name": "MainSynchornization",
+            "request": "launch",
+            "mainClass": "Self.MainSynchornization",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
+            "name": "proCo",
+            "request": "launch",
+            "mainClass": "Self.proCo",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
+            "name": "BinarySearchTree",
+            "request": "launch",
+            "mainClass": "Self.BinarySearchTree",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
+            "name": "BSTMain",
+            "request": "launch",
+            "mainClass": "Self.BSTMain",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Self.Main",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
+            "name": "Except1",
+            "request": "launch",
+            "mainClass": "college.Except1",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
+            "name": "HelloWorld",
+            "request": "launch",
+            "mainClass": "college.HelloWorld",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
+            "name": "SeriliMain",
+            "request": "launch",
+            "mainClass": "college.SeriliMain",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
+            "name": "Serili",
+            "request": "launch",
+            "mainClass": "college.Serili",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
+            "name": "PrimeNumbers",
+            "request": "launch",
+            "mainClass": "college.PrimeNumbers",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
+            "name": "SampleStatic",
+            "request": "launch",
+            "mainClass": "college.SampleStatic",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
             "name": "threadMulFive",
             "request": "launch",
             "mainClass": "CO4.threadMulFive",
