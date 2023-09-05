@@ -5,7 +5,7 @@ class PrimeNumbers
     public static void main(String args[])
     {
         int i,j;
-        for(i=2;i<=100;i++)
+        for(i=2;i<=20;i++)
         {
             for(j=2;j<i;j++)
             {

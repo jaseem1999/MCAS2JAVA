@@ -1,5 +1,5 @@
 package Self;
-
+import java.util.Scanner;
 public class interThreaaCommunication {
     public static void main(String[] args) {
         final Account a = new Account();
@@ -10,7 +10,7 @@ public class interThreaaCommunication {
         }.start(); 
         new Thread() {
             public void run() {
-                a.deposit(10000);
+                a.deposit();
             }
         }.start();
 
@@ -45,7 +45,10 @@ class Account{
         }
     }
 
-    synchronized void deposit(double amount) {
+    synchronized void deposit() {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter amount to deposit:: ");
+        double amount = sc.nextDouble();
         System.out.println("Going to deposit...");
         balance += amount;
         System.out.println("Deposit completed...");

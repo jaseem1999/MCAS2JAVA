@@ -1,3 +1,4 @@
+package CO4;
 import java.util.Scanner;
 class Even implements Runnable{
         int n;

@@ -6,6 +6,328 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ThreeNoDivEven",
+            "request": "launch",
+            "mainClass": "ExternalExam.SamplQuestions.ThreeNoDivEven",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
+            "name": "Eligibility",
+            "request": "launch",
+            "mainClass": "ExternalExam.SamplQuestions.Eligibility",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
+            "name": "CircRect",
+            "request": "launch",
+            "mainClass": "ExternalExam.SamplQuestions.CircRect",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
+            "name": "ThreadMultFebi",
+            "request": "launch",
+            "mainClass": "ExternalExam.SamplQuestions.ThreadMultFebi",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
+            "name": "Polymorphism",
+            "request": "launch",
+            "mainClass": "ExternalExam.SamplQuestions.Polymorphism",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
+            "name": "CalcuCaFa",
+            "request": "launch",
+            "mainClass": "ExternalExam.SamplQuestions.CalcuCaFa",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
+            "name": "Interface",
+            "request": "launch",
+            "mainClass": "ExternalExam.SimplePrograms.OOPConcept.Interface",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
+            "name": "Absraction",
+            "request": "launch",
+            "mainClass": "ExternalExam.SimplePrograms.OOPConcept.Absraction",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
+            "name": "Polymorphism",
+            "request": "launch",
+            "mainClass": "ExternalExam.SimplePrograms.OOPConcept.Polymorphism",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "ExternalExam.SimplePrograms.OOPConcept.Main",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
+            "name": "Encapsulation",
+            "request": "launch",
+            "mainClass": "ExternalExam.SimplePrograms.OOPConcept.Encapsulation",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
+            "name": "Inheritence",
+            "request": "launch",
+            "mainClass": "ExternalExam.SimplePrograms.OOPConcept.Inheritence",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
+            "name": "ObjectClass",
+            "request": "launch",
+            "mainClass": "ExternalExam.SimplePrograms.OOPConcept.ObjectClass",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
+            "name": "TypeCasting",
+            "request": "launch",
+            "mainClass": "ExternalExam.SimplePrograms.TypeCasting",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
+            "name": "Palidrome",
+            "request": "launch",
+            "mainClass": "ExternalExam.SimplePrograms.Palidrome",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "ExternalExam.SimplePrograms.Main",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
+            "name": "Amstrong",
+            "request": "launch",
+            "mainClass": "college.Amstrong",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
+            "name": "Amstorng",
+            "request": "launch",
+            "mainClass": "ExternalExam.SimplePrograms.Amstorng",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
+            "name": "ReverseString",
+            "request": "launch",
+            "mainClass": "ExternalExam.SimplePrograms.ReverseString",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
+            "name": "Leap",
+            "request": "launch",
+            "mainClass": "ExternalExam.SimplePrograms.Leap",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
+            "name": "Reverse",
+            "request": "launch",
+            "mainClass": "ExternalExam.SimplePrograms.Reverse",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
+            "name": "Even",
+            "request": "launch",
+            "mainClass": "ExternalExam.SimplePrograms.Even",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
+            "name": "SumOfDigit",
+            "request": "launch",
+            "mainClass": "ExternalExam.SimplePrograms.SumOfDigit",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
+            "name": "Prime",
+            "request": "launch",
+            "mainClass": "ExternalExam.SimplePrograms.Prime",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
+            "name": "Fibonacci",
+            "request": "launch",
+            "mainClass": "ExternalExam.SimplePrograms.Fibonacci",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
+            "name": "ManuplationThread",
+            "request": "launch",
+            "mainClass": "ExternalExam.CO4.ManuplationThread",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
+            "name": "Negative",
+            "request": "launch",
+            "mainClass": "ExternalExam.CO4.Negative",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
+            "name": "GraphicMain",
+            "request": "launch",
+            "mainClass": "ExternalExam.CO4.GraphicMain",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
+            "name": "Prototype",
+            "request": "launch",
+            "mainClass": "ExternalExam.CO3.Prototype",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
+            "name": "Prototype",
+            "request": "launch",
+            "mainClass": "ExternalExam.Prototype",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
+            "name": "MainI",
+            "request": "launch",
+            "mainClass": "ExternalExam.MainI",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
+            "name": "CO3PrototypeInterface",
+            "request": "launch",
+            "mainClass": "ExternalExam.CO3PrototypeInterface",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
+            "name": "CO3Employee",
+            "request": "launch",
+            "mainClass": "ExternalExam.CO3Employee",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
+            "name": "CO3Shape",
+            "request": "launch",
+            "mainClass": "ExternalExam.CO3Shape",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
+            "name": "CO2SearchEmp",
+            "request": "launch",
+            "mainClass": "ExternalExam.CO2SearchEmp",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
+            "name": "CO2SearchArray",
+            "request": "launch",
+            "mainClass": "ExternalExam.CO2SearchArray",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
+            "name": "CO2StrManuplution",
+            "request": "launch",
+            "mainClass": "ExternalExam.CO2StrManuplution",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
+            "name": "CO2StringSorting",
+            "request": "launch",
+            "mainClass": "ExternalExam.CO2StringSorting",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
+            "name": "StaticMethod",
+            "request": "launch",
+            "mainClass": "ExternalExam.StaticMethod",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
+            "name": "CO1Cpu",
+            "request": "launch",
+            "mainClass": "ExternalExam.CO1Cpu",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
+            "name": "CO1metrixSymm",
+            "request": "launch",
+            "mainClass": "ExternalExam.CO1metrixSymm",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
+            "name": "CO1AddComplex",
+            "request": "launch",
+            "mainClass": "ExternalExam.CO1AddComplex",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
+            "name": "MatrixAddition",
+            "request": "launch",
+            "mainClass": "ExternalExam.MatrixAddition",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
+            "name": "CO1Product",
+            "request": "launch",
+            "mainClass": "ExternalExam.CO1Product",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
+            "name": "ThreadFebEvenMain",
+            "request": "launch",
+            "mainClass": "CO4.ThreadFebEvenMain",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
+            "name": "ThreadFebEvenMain",
+            "request": "launch",
+            "mainClass": "ThreadFebEvenMain",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
             "name": "Febonacci",
             "request": "launch",
             "mainClass": "CO4.Febonacci",
