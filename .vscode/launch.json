@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "ExternalExam.SamplQuestions.Add.Main",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
+            "name": "Sort",
+            "request": "launch",
+            "mainClass": "ExternalExam.SimplePrograms.Sort",
+            "projectName": "Java lab_3d2c13cc"
+        },
+        {
+            "type": "java",
             "name": "ThreeNoDivEven",
             "request": "launch",
             "mainClass": "ExternalExam.SamplQuestions.ThreeNoDivEven",
